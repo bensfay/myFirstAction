@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: afficher bonjour
-        run: echo"salut"
+        run: echo "salut"
       - name: dire good luck
-        run: echo"bon stage"
+        run: echo "bon stage"
         
       
