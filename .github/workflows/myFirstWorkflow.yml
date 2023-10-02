@@ -4,9 +4,9 @@ jobs:
   first_job: 
     runs-on: ubuntu-latest
     steps: 
-      -name: afficher bonjour
-        run: echo"salut tout le monde"
-      -name: dire good luck
+      - name: afficher bonjour
+        run: echo"salut"
+      - name: dire good luck
         run: echo"bon stage"
         
       
